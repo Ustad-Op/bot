@@ -1,5 +1,5 @@
-from OpUstad import UstaD, UstaD2, UstaD3, UstaD4, UstaD5, UstaD6, UstaD7, UstaD8, UstaD9, UstaD10, UstaD11, UstaD12, UstaD13, UstaD14, UstaD15, UstaD16, UstaD17, UstaD18, UstaD19, UstaD20
- SUDO_USERS, DEV_USERS
+from OpUstad import UstaD, UstaD2, UstaD3, UstaD4, UstaD5, UstaD6, UstaD7, UstaD8, UstaD9, UstaD10, UstaD11, UstaD12, UstaD13, UstaD14, UstaD15, UstaD16, UstaD17, UstaD18, UstaD19, UstaD20 SUDO_USERS, DEV_USERS
+from OpUstad import HNDLR as hn
 from telethon import events
 from time import time
 from datetime import datetime
@@ -7,6 +7,9 @@ from datetime import datetime
 SMEX_USERS = []
 for x in SUDO_USERS:
     SMEX_USERS.append(x)
+SMEXX_USERS = []
+for x in DEV_USERS:
+    SMEXX_USERS.append(x)
 
 def get_readable_time(seconds: int) -> str:
     count = 0
@@ -34,3 +37,24 @@ def get_readable_time(seconds: int) -> str:
     ping_time += ":".join(time_list)
 
     return ping_time
+
+if UstaD:
+      @UstaD.on(events.NewMessage(pattern=r"ping(?: |$)(.*)" % hn))
+      async def ping(e) :
+        if e.sender_id in SMEX_USERS:
+                  start = datetime.now()
+                  text = "Pong!"
+                  event = await e.reply(text, parse_mode=None, link_preview=None )
+                  end = datetime.now()
+                  ms = (end-start).microseconds / 1000
+                  await event.edit(f"🤖 𝗣𝗼𝗻𝗴!\n`{ms}` 𝗺𝘀")
+        if e.sender_id in SMEXX_USERS:
+                  start = datetime.now()
+                  text = "Pong!"
+                  event = await e.reply(text, parse_mode=None, link_preview=None )
+                  end = datetime.now()
+                  ms = (end-start).microseconds / 1000
+                  await event.edit(f"🤖 𝗣𝗼𝗻𝗴!\n`{ms}` 𝗺𝘀")
+else:
+    pass
+
