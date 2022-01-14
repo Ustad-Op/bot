@@ -39,7 +39,7 @@ def get_readable_time(seconds: int) -> str:
     return ping_time
 
 if UstaD:
-      @UstaD.on(events.NewMessage(pattern=r"ping(?: |$)(.*)" % hn))
+      @Ustad.on(events.NewMessage(incoming=True, pattern=r"\%ping(?: |$)(.*)" % hl))
       async def ping(e) :
         if e.sender_id in SMEX_USERS:
                   start = datetime.now()
