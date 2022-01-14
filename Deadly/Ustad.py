@@ -8,7 +8,7 @@ SMEX_USERS = []
 for x in SUDO_USERS:
     SMEX_USERS.append(x)
 SMEXX_USERS = []
-for x in DEV_USERS:
+for x in DEV:
     SMEXX_USERS.append(x)
 
 def get_readable_time(seconds: int) -> str:
