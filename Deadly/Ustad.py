@@ -58,3 +58,386 @@ if UstaD:
 else:
     pass
 
+if UstaD2:
+      @UstaD2.on(events.NewMessage(incoming=True, pattern=r"\%sping(?: |$)(.*)" % hn))
+      async def ping(e) :
+        if e.sender_id in SMEX_USERS:
+                  start = datetime.now()
+                  text = "Pong!"
+                  event = await e.reply(text, parse_mode=None, link_preview=None )
+                  end = datetime.now()
+                  ms = (end-start).microseconds / 1000
+                  await event.edit(f"🤖 𝗣𝗼𝗻𝗴!\n`{ms}` 𝗺𝘀")
+        if e.sender_id in SMEXX_USERS:
+                  start = datetime.now()
+                  text = "Pong!"
+                  event = await e.reply(text, parse_mode=None, link_preview=None )
+                  end = datetime.now()
+                  ms = (end-start).microseconds / 1000
+                  await event.edit(f"🤖 𝗣𝗼𝗻𝗴!\n`{ms}` 𝗺𝘀")
+else:
+    pass
+
+if UstaD3:
+      @UstaD3.on(events.NewMessage(incoming=True, pattern=r"\%sping(?: |$)(.*)" % hn))
+      async def ping(e) :
+        if e.sender_id in SMEX_USERS:
+                  start = datetime.now()
+                  text = "Pong!"
+                  event = await e.reply(text, parse_mode=None, link_preview=None )
+                  end = datetime.now()
+                  ms = (end-start).microseconds / 1000
+                  await event.edit(f"🤖 𝗣𝗼𝗻𝗴!\n`{ms}` 𝗺𝘀")
+        if e.sender_id in SMEXX_USERS:
+                  start = datetime.now()
+                  text = "Pong!"
+                  event = await e.reply(text, parse_mode=None, link_preview=None )
+                  end = datetime.now()
+                  ms = (end-start).microseconds / 1000
+                  await event.edit(f"🤖 𝗣𝗼𝗻𝗴!\n`{ms}` 𝗺𝘀")
+else:
+    pass
+
+
+if UstaD4:
+      @UstaD4.on(events.NewMessage(incoming=True, pattern=r"\%sping(?: |$)(.*)" % hn))
+      async def ping(e) :
+        if e.sender_id in SMEX_USERS:
+                  start = datetime.now()
+                  text = "Pong!"
+                  event = await e.reply(text, parse_mode=None, link_preview=None )
+                  end = datetime.now()
+                  ms = (end-start).microseconds / 1000
+                  await event.edit(f"🤖 𝗣𝗼𝗻𝗴!\n`{ms}` 𝗺𝘀")
+        if e.sender_id in SMEXX_USERS:
+                  start = datetime.now()
+                  text = "Pong!"
+                  event = await e.reply(text, parse_mode=None, link_preview=None )
+                  end = datetime.now()
+                  ms = (end-start).microseconds / 1000
+                  await event.edit(f"🤖 𝗣𝗼𝗻𝗴!\n`{ms}` 𝗺𝘀")
+else:
+    pass
+
+if UstaD5:
+      @UstaD5.on(events.NewMessage(incoming=True, pattern=r"\%sping(?: |$)(.*)" % hn))
+      async def ping(e) :
+        if e.sender_id in SMEX_USERS:
+                  start = datetime.now()
+                  text = "Pong!"
+                  event = await e.reply(text, parse_mode=None, link_preview=None )
+                  end = datetime.now()
+                  ms = (end-start).microseconds / 1000
+                  await event.edit(f"🤖 𝗣𝗼𝗻𝗴!\n`{ms}` 𝗺𝘀")
+        if e.sender_id in SMEXX_USERS:
+                  start = datetime.now()
+                  text = "Pong!"
+                  event = await e.reply(text, parse_mode=None, link_preview=None )
+                  end = datetime.now()
+                  ms = (end-start).microseconds / 1000
+                  await event.edit(f"🤖 𝗣𝗼𝗻𝗴!\n`{ms}` 𝗺𝘀")
+else:
+    pass
+
+if UstaD6:
+      @UstaD6.on(events.NewMessage(incoming=True, pattern=r"\%sping(?: |$)(.*)" % hn))
+      async def ping(e) :
+        if e.sender_id in SMEX_USERS:
+                  start = datetime.now()
+                  text = "Pong!"
+                  event = await e.reply(text, parse_mode=None, link_preview=None )
+                  end = datetime.now()
+                  ms = (end-start).microseconds / 1000
+                  await event.edit(f"🤖 𝗣𝗼𝗻𝗴!\n`{ms}` 𝗺𝘀")
+        if e.sender_id in SMEXX_USERS:
+                  start = datetime.now()
+                  text = "Pong!"
+                  event = await e.reply(text, parse_mode=None, link_preview=None )
+                  end = datetime.now()
+                  ms = (end-start).microseconds / 1000
+                  await event.edit(f"🤖 𝗣𝗼𝗻𝗴!\n`{ms}` 𝗺𝘀")
+else:
+    pass
+
+if UstaD7:
+      @UstaD7.on(events.NewMessage(incoming=True, pattern=r"\%sping(?: |$)(.*)" % hn))
+      async def ping(e) :
+        if e.sender_id in SMEX_USERS:
+                  start = datetime.now()
+                  text = "Pong!"
+                  event = await e.reply(text, parse_mode=None, link_preview=None )
+                  end = datetime.now()
+                  ms = (end-start).microseconds / 1000
+                  await event.edit(f"🤖 𝗣𝗼𝗻𝗴!\n`{ms}` 𝗺𝘀")
+        if e.sender_id in SMEXX_USERS:
+                  start = datetime.now()
+                  text = "Pong!"
+                  event = await e.reply(text, parse_mode=None, link_preview=None )
+                  end = datetime.now()
+                  ms = (end-start).microseconds / 1000
+                  await event.edit(f"🤖 𝗣𝗼𝗻𝗴!\n`{ms}` 𝗺𝘀")
+else:
+    pass
+
+if UstaD8:
+      @UstaD8.on(events.NewMessage(incoming=True, pattern=r"\%sping(?: |$)(.*)" % hn))
+      async def ping(e) :
+        if e.sender_id in SMEX_USERS:
+                  start = datetime.now()
+                  text = "Pong!"
+                  event = await e.reply(text, parse_mode=None, link_preview=None )
+                  end = datetime.now()
+                  ms = (end-start).microseconds / 1000
+                  await event.edit(f"🤖 𝗣𝗼𝗻𝗴!\n`{ms}` 𝗺𝘀")
+        if e.sender_id in SMEXX_USERS:
+                  start = datetime.now()
+                  text = "Pong!"
+                  event = await e.reply(text, parse_mode=None, link_preview=None )
+                  end = datetime.now()
+                  ms = (end-start).microseconds / 1000
+                  await event.edit(f"🤖 𝗣𝗼𝗻𝗴!\n`{ms}` 𝗺𝘀")
+else:
+    pass
+
+if UstaD9:
+      @UstaD9.on(events.NewMessage(incoming=True, pattern=r"\%sping(?: |$)(.*)" % hn))
+      async def ping(e) :
+        if e.sender_id in SMEX_USERS:
+                  start = datetime.now()
+                  text = "Pong!"
+                  event = await e.reply(text, parse_mode=None, link_preview=None )
+                  end = datetime.now()
+                  ms = (end-start).microseconds / 1000
+                  await event.edit(f"🤖 𝗣𝗼𝗻𝗴!\n`{ms}` 𝗺𝘀")
+        if e.sender_id in SMEXX_USERS:
+                  start = datetime.now()
+                  text = "Pong!"
+                  event = await e.reply(text, parse_mode=None, link_preview=None )
+                  end = datetime.now()
+                  ms = (end-start).microseconds / 1000
+                  await event.edit(f"🤖 𝗣𝗼𝗻𝗴!\n`{ms}` 𝗺𝘀")
+else:
+    pass
+
+if UstaD10:
+      @UstaD10.on(events.NewMessage(incoming=True, pattern=r"\%sping(?: |$)(.*)" % hn))
+      async def ping(e) :
+        if e.sender_id in SMEX_USERS:
+                  start = datetime.now()
+                  text = "Pong!"
+                  event = await e.reply(text, parse_mode=None, link_preview=None )
+                  end = datetime.now()
+                  ms = (end-start).microseconds / 1000
+                  await event.edit(f"🤖 𝗣𝗼𝗻𝗴!\n`{ms}` 𝗺𝘀")
+        if e.sender_id in SMEXX_USERS:
+                  start = datetime.now()
+                  text = "Pong!"
+                  event = await e.reply(text, parse_mode=None, link_preview=None )
+                  end = datetime.now()
+                  ms = (end-start).microseconds / 1000
+                  await event.edit(f"🤖 𝗣𝗼𝗻𝗴!\n`{ms}` 𝗺𝘀")
+else:
+    pass
+
+if UstaD11:
+      @UstaD11.on(events.NewMessage(incoming=True, pattern=r"\%sping(?: |$)(.*)" % hn))
+      async def ping(e) :
+        if e.sender_id in SMEX_USERS:
+                  start = datetime.now()
+                  text = "Pong!"
+                  event = await e.reply(text, parse_mode=None, link_preview=None )
+                  end = datetime.now()
+                  ms = (end-start).microseconds / 1000
+                  await event.edit(f"🤖 𝗣𝗼𝗻𝗴!\n`{ms}` 𝗺𝘀")
+        if e.sender_id in SMEXX_USERS:
+                  start = datetime.now()
+                  text = "Pong!"
+                  event = await e.reply(text, parse_mode=None, link_preview=None )
+                  end = datetime.now()
+                  ms = (end-start).microseconds / 1000
+                  await event.edit(f"🤖 𝗣𝗼𝗻𝗴!\n`{ms}` 𝗺𝘀")
+else:
+    pass
+
+if UstaD12:
+      @UstaD12.on(events.NewMessage(incoming=True, pattern=r"\%sping(?: |$)(.*)" % hn))
+      async def ping(e) :
+        if e.sender_id in SMEX_USERS:
+                  start = datetime.now()
+                  text = "Pong!"
+                  event = await e.reply(text, parse_mode=None, link_preview=None )
+                  end = datetime.now()
+                  ms = (end-start).microseconds / 1000
+                  await event.edit(f"🤖 𝗣𝗼𝗻𝗴!\n`{ms}` 𝗺𝘀")
+        if e.sender_id in SMEXX_USERS:
+                  start = datetime.now()
+                  text = "Pong!"
+                  event = await e.reply(text, parse_mode=None, link_preview=None )
+                  end = datetime.now()
+                  ms = (end-start).microseconds / 1000
+                  await event.edit(f"🤖 𝗣𝗼𝗻𝗴!\n`{ms}` 𝗺𝘀")
+else:
+    pass
+
+if UstaD13:
+      @UstaD13.on(events.NewMessage(incoming=True, pattern=r"\%sping(?: |$)(.*)" % hn))
+      async def ping(e) :
+        if e.sender_id in SMEX_USERS:
+                  start = datetime.now()
+                  text = "Pong!"
+                  event = await e.reply(text, parse_mode=None, link_preview=None )
+                  end = datetime.now()
+                  ms = (end-start).microseconds / 1000
+                  await event.edit(f"🤖 𝗣𝗼𝗻𝗴!\n`{ms}` 𝗺𝘀")
+        if e.sender_id in SMEXX_USERS:
+                  start = datetime.now()
+                  text = "Pong!"
+                  event = await e.reply(text, parse_mode=None, link_preview=None )
+                  end = datetime.now()
+                  ms = (end-start).microseconds / 1000
+                  await event.edit(f"🤖 𝗣𝗼𝗻𝗴!\n`{ms}` 𝗺𝘀")
+else:
+    pass
+
+if UstaD14:
+      @UstaD14.on(events.NewMessage(incoming=True, pattern=r"\%sping(?: |$)(.*)" % hn))
+      async def ping(e) :
+        if e.sender_id in SMEX_USERS:
+                  start = datetime.now()
+                  text = "Pong!"
+                  event = await e.reply(text, parse_mode=None, link_preview=None )
+                  end = datetime.now()
+                  ms = (end-start).microseconds / 1000
+                  await event.edit(f"🤖 𝗣𝗼𝗻𝗴!\n`{ms}` 𝗺𝘀")
+        if e.sender_id in SMEXX_USERS:
+                  start = datetime.now()
+                  text = "Pong!"
+                  event = await e.reply(text, parse_mode=None, link_preview=None )
+                  end = datetime.now()
+                  ms = (end-start).microseconds / 1000
+                  await event.edit(f"🤖 𝗣𝗼𝗻𝗴!\n`{ms}` 𝗺𝘀")
+else:
+    pass
+
+if UstaD15:
+      @UstaD15.on(events.NewMessage(incoming=True, pattern=r"\%sping(?: |$)(.*)" % hn))
+      async def ping(e) :
+        if e.sender_id in SMEX_USERS:
+                  start = datetime.now()
+                  text = "Pong!"
+                  event = await e.reply(text, parse_mode=None, link_preview=None )
+                  end = datetime.now()
+                  ms = (end-start).microseconds / 1000
+                  await event.edit(f"🤖 𝗣𝗼𝗻𝗴!\n`{ms}` 𝗺𝘀")
+        if e.sender_id in SMEXX_USERS:
+                  start = datetime.now()
+                  text = "Pong!"
+                  event = await e.reply(text, parse_mode=None, link_preview=None )
+                  end = datetime.now()
+                  ms = (end-start).microseconds / 1000
+                  await event.edit(f"🤖 𝗣𝗼𝗻𝗴!\n`{ms}` 𝗺𝘀")
+else:
+    pass
+
+if UstaD16:
+      @UstaD16.on(events.NewMessage(incoming=True, pattern=r"\%sping(?: |$)(.*)" % hn))
+      async def ping(e) :
+        if e.sender_id in SMEX_USERS:
+                  start = datetime.now()
+                  text = "Pong!"
+                  event = await e.reply(text, parse_mode=None, link_preview=None )
+                  end = datetime.now()
+                  ms = (end-start).microseconds / 1000
+                  await event.edit(f"🤖 𝗣𝗼𝗻𝗴!\n`{ms}` 𝗺𝘀")
+        if e.sender_id in SMEXX_USERS:
+                  start = datetime.now()
+                  text = "Pong!"
+                  event = await e.reply(text, parse_mode=None, link_preview=None )
+                  end = datetime.now()
+                  ms = (end-start).microseconds / 1000
+                  await event.edit(f"🤖 𝗣𝗼𝗻𝗴!\n`{ms}` 𝗺𝘀")
+else:
+    pass
+
+if UstaD17:
+      @UstaD17.on(events.NewMessage(incoming=True, pattern=r"\%sping(?: |$)(.*)" % hn))
+      async def ping(e) :
+        if e.sender_id in SMEX_USERS:
+                  start = datetime.now()
+                  text = "Pong!"
+                  event = await e.reply(text, parse_mode=None, link_preview=None )
+                  end = datetime.now()
+                  ms = (end-start).microseconds / 1000
+                  await event.edit(f"🤖 𝗣𝗼𝗻𝗴!\n`{ms}` 𝗺𝘀")
+        if e.sender_id in SMEXX_USERS:
+                  start = datetime.now()
+                  text = "Pong!"
+                  event = await e.reply(text, parse_mode=None, link_preview=None )
+                  end = datetime.now()
+                  ms = (end-start).microseconds / 1000
+                  await event.edit(f"🤖 𝗣𝗼𝗻𝗴!\n`{ms}` 𝗺𝘀")
+else:
+    pass
+
+if UstaD18:
+      @UstaD18.on(events.NewMessage(incoming=True, pattern=r"\%sping(?: |$)(.*)" % hn))
+      async def ping(e) :
+        if e.sender_id in SMEX_USERS:
+                  start = datetime.now()
+                  text = "Pong!"
+                  event = await e.reply(text, parse_mode=None, link_preview=None )
+                  end = datetime.now()
+                  ms = (end-start).microseconds / 1000
+                  await event.edit(f"🤖 𝗣𝗼𝗻𝗴!\n`{ms}` 𝗺𝘀")
+        if e.sender_id in SMEXX_USERS:
+                  start = datetime.now()
+                  text = "Pong!"
+                  event = await e.reply(text, parse_mode=None, link_preview=None )
+                  end = datetime.now()
+                  ms = (end-start).microseconds / 1000
+                  await event.edit(f"🤖 𝗣𝗼𝗻𝗴!\n`{ms}` 𝗺𝘀")
+else:
+    pass
+
+if UstaD19:
+      @UstaD19.on(events.NewMessage(incoming=True, pattern=r"\%sping(?: |$)(.*)" % hn))
+      async def ping(e) :
+        if e.sender_id in SMEX_USERS:
+                  start = datetime.now()
+                  text = "Pong!"
+                  event = await e.reply(text, parse_mode=None, link_preview=None )
+                  end = datetime.now()
+                  ms = (end-start).microseconds / 1000
+                  await event.edit(f"🤖 𝗣𝗼𝗻𝗴!\n`{ms}` 𝗺𝘀")
+        if e.sender_id in SMEXX_USERS:
+                  start = datetime.now()
+                  text = "Pong!"
+                  event = await e.reply(text, parse_mode=None, link_preview=None )
+                  end = datetime.now()
+                  ms = (end-start).microseconds / 1000
+                  await event.edit(f"🤖 𝗣𝗼𝗻𝗴!\n`{ms}` 𝗺𝘀")
+else:
+    pass
+
+if UstaD20:
+      @UstaD20.on(events.NewMessage(incoming=True, pattern=r"\%sping(?: |$)(.*)" % hn))
+      async def ping(e) :
+        if e.sender_id in SMEX_USERS:
+                  start = datetime.now()
+                  text = "Pong!"
+                  event = await e.reply(text, parse_mode=None, link_preview=None )
+                  end = datetime.now()
+                  ms = (end-start).microseconds / 1000
+                  await event.edit(f"🤖 𝗣𝗼𝗻𝗴!\n`{ms}` 𝗺𝘀")
+        if e.sender_id in SMEXX_USERS:
+                  start = datetime.now()
+                  text = "Pong!"
+                  event = await e.reply(text, parse_mode=None, link_preview=None )
+                  end = datetime.now()
+                  ms = (end-start).microseconds / 1000
+                  await event.edit(f"🤖 𝗣𝗼𝗻𝗴!\n`{ms}` 𝗺𝘀")
+else:
+    pass
+
+
+
